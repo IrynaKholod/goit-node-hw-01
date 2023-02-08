@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Iryna\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
+
+PATH: 
+  C:\Users\Iryna\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Iryna\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Iryna\AppData\Local\Microsoft\WindowsApps;C:\Users\Iryna\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Iryna\AppData\Local\GitHubDesktop\bin;C:\Users\Iryna\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Iryna\Documents\GitHub\NodeJs\goit-node-hw-01\package.json: Unexpected token } in JSON at position 153
+      at JSON.parse (<anonymous>)
+      at C:\Users\Iryna\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Iryna\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Iryna\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "goit-node-hw-01",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/IrynaKholod/goit-node-hw-01.git"
+    },
+    "author": "Iryna Kholodenko",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/IrynaKholod/goit-node-hw-01/issues"
+    },
+    "homepage": "https://github.com/IrynaKholod/goit-node-hw-01#readme",
+    "dependencies": {
+      "commander": "^10.0.0",
+      "yargs": "^17.6.2"
+    },
+    "keywords": [],
+    "description": ""
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
